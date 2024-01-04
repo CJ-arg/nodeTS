@@ -4,7 +4,7 @@ const heroes = [
   { id: 3, name: "Batman", owner: "DC" },
 ];
 
-const findHeroById = (id) => {
+const findHeroById = (id: number) => {
   return heroes.find((hero) => hero.id === id);
 };
 
